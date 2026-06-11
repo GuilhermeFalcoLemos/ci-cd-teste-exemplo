@@ -17,6 +17,6 @@ jobs:
         node-version: 18
         cache: 'npm'
     - name: instalar Depencias      
-    - run: npm install
+      run: npm install
     - name: Executar Testes
-    - run: npm test
+      run: npm test
